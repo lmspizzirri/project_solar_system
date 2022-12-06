@@ -1,21 +1,21 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import Title from './components/Title'
+import Title from './components/Title';
 import PlanetCard from './components/PlanetCard';
-import Missions from './components/Missions'
+import Missions from './components/Missions';
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <>
-      <Header />
-      <SolarSystem />
-      <Missions />
-      <Title />
-      <PlanetCard />
+        <Header />
+        <SolarSystem />
+        <Missions />
+        <Title />
+        <PlanetCard />
       </>
-    )
+    );
   }
 }
 
